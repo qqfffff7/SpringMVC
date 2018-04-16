@@ -13,4 +13,7 @@ public class AppController {
     public String test(){
         return null;
     }
+
+    @RequestMapping
+    public void method(){}
 }
